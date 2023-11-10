@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/about_menu_item"
+        android:title="О программе" />
+
+    <item
+        android:id="@+id/themes"
+        android:title="Сменить тему"/>
+    <item
+        android:id="@+id/light"
+        android:title="Light"
+        android:icon="@drawable/light"
+        app:showAsAction = "ifRoom"/>
+    <item
+        android:id="@+id/dark"
+        android:title="Dark"
+        android:icon="@drawable/dark"
+        app:showAsAction = "ifRoom"/>
+
+</menu>
